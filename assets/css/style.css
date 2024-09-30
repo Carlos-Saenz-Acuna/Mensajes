@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+
+.pagina{
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.chat{
+    display: flex;
+    border-top:1px solid #BEC1BB ;
+    border-bottom: 1px solid #BEC1Bb;
+    height: 60px;
+    width: 250px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+    gap: 10px;
+   
+    
+}
+
+.chatnuevo{
+    display: flex;
+    flex-grow: 4;
+    border-top:1px solid #BEC1BB ;
+    border-bottom: 1px solid #BEC1BB;
+    height: 50px;
+    width: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.aire{
+    width: 50px;
+}
+
+
+.btn {
+    border: none;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    background-color: #a491d2 ;
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+
+}
+
+.success:hover {
+    background-color: #cdc3e6;
+    color: white;
+}
+
+.foto img{
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre{
+    font-size: 16px;
+}
+
+.estado{
+    font-size: 10px;
+    color: #BEC1BB;
+}
+.mensaje{
+    font-size: 14px;
+}
+
+.titulo{
+    font-size: 45px;
+}
+
+.subtitulo{
+    font-size: 16px;
+}
+
+
+.conversacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    background-color: #E8ebe4;
+    border-left: 1px solid #BEC1BB;
+   
+}
+
+
